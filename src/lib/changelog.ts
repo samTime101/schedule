@@ -6,7 +6,8 @@
                 "Added group selection feature.",
                 "Implemented day tabs for schedule viewing.",
                 "Responsive design for mobile and desktop.",
-                "Changelogs and upcoming features section added lol"
+                "Changelogs and upcoming features section added lol",
+                "Schedule frontend changed for mobile/desktop"
             ]
         }
     }
