@@ -103,7 +103,7 @@
 								<tr
 									class="{i % 2 === 0
 										? 'bg-white dark:bg-gray-800'
-										: 'bg-gray-50 dark:bg-gray-750'} hover:bg-gray-100 dark:hover:bg-gray-700 transition cursor-pointer"
+										: 'bg-gray-50 dark:bg-gray-750'} hover:bg-gray-100 dark:hover:bg-gray-600 transition cursor-pointer"
 								>
 									<td class="p-4 text-gray-700 dark:text-gray-300"
 										>{session.START} - {session.END}</td
