@@ -3,7 +3,10 @@ let changelog = {
 		date: '2025-11-26',
 		changes: [
 			'Enhance UI with dark mode support.',
-			'Minor bug fixes and UI improvements.'
+			'Minor bug fixes and UI improvements.',
+			'Removed unwanted labels from schedule component.',
+			'Added icon for navigation to changelog page.',
+			'Fixed theme toggle button position and styling.'
 		]
 	},
 	'1.0.0': {
@@ -21,7 +24,9 @@ let changelog = {
 let upcoming = {
 	'1.1.0': {
 		date: 'Ongoing',
-		changes: ['Add student/teacher selection']
+		changes: [
+			'Add student/teacher selection'
+		]
 	}
 };
 

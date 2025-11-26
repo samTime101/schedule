@@ -8,14 +8,14 @@
             Changelog
         </h1> -->
 		<!-- MOVE BACK TO HOME -->
-		<div class="flex justify-center mb-10">
+		<!-- <div class="flex justify-center mb-10">
 			<a
 				href="/"
 				class="px-6 py-2.5 bg-gray-900 dark:bg-blue-600 text-white rounded-xl text-sm font-medium shadow hover:shadow-md transition
                        focus:ring-2 focus:ring-blue-500 focus:outline-none"
 				>Home
 			</a>
-		</div>
+		</div> -->
 
 		<!-- UPCOMING UPDATES -->
 		<section class="mb-12">

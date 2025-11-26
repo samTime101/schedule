@@ -15,10 +15,10 @@
 				class="flex items-center gap-2 md:gap-3 bg-white dark:bg-gray-800 px-4 md:px-6 py-2 md:py-3 shadow-sm rounded-2xl border border-gray-200 dark:border-gray-700"
 			>
 				<!-- svelte-ignore a11y_label_has_associated_control -->
-				<label
+				<!-- <label
 					class="font-medium text-gray-700 dark:text-gray-300 whitespace-nowrap text-sm md:text-base"
 					>Select Group:</label
-				>
+				> -->
 				<select
 					bind:value={selectedGroup}
 					class="px-3 py-1 md:px-4 md:py-2 bg-gray-50 dark:bg-gray-700 rounded-xl border border-gray-300 dark:border-gray-600 shadow-sm
@@ -54,11 +54,11 @@
 
 		<!-- SELECTED DAY CONTENT -->
 		<div class="mt-4 md:mt-10">
-			<h2
+			<!-- <h2
 				class="text-xl md:text-2xl font-semibold text-gray-900 dark:text-gray-100 mb-4 md:mb-6 text-center"
 			>
 				{selectedDay} Schedule
-			</h2>
+			</h2> -->
 
 			{#if schedule[selectedDay].length === 0}
 				<p class="text-gray-500 dark:text-gray-400 italic text-center text-base md:text-lg">

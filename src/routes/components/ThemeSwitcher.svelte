@@ -4,7 +4,6 @@
 	let theme = $state('light');
 
 	onMount(() => {
-		// Check localStorage first, then system preference
 		const savedTheme = localStorage.getItem('theme');
 		if (savedTheme) {
 			theme = savedTheme;
@@ -35,7 +34,6 @@
 	aria-label="Toggle theme"
 >
 	{#if theme === 'light'}
-		<!-- Moon icon for dark mode -->
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
 			class="h-5 w-5 text-gray-700"
@@ -51,7 +49,6 @@
 			/>
 		</svg>
 	{:else}
-		<!-- Sun icon for light mode -->
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
 			class="h-5 w-5 text-yellow-400"
