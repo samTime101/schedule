@@ -3,24 +3,9 @@
 	import Navbar from "./Navbar.svelte";
 </script>
 
+<Navbar />			
 <div class="w-full flex justify-center p-6">
 	<div class="w-full max-w-4xl">
-		<div class="flex justify-center mb-10">
-			<Navbar />
-		</div>
-		<!-- <h1 class="text-4xl font-semibold mb-10 tracking-tight text-gray-900 dark:text-gray-100 text-center">
-            Changelog
-        </h1> -->
-		<!-- MOVE BACK TO HOME -->
-		<!-- <div class="flex justify-center mb-10">
-			<a
-				href="/"
-				class="px-6 py-2.5 bg-gray-900 dark:bg-blue-600 text-white rounded-xl text-sm font-medium shadow hover:shadow-md transition
-                       focus:ring-2 focus:ring-blue-500 focus:outline-none"
-				>Home
-			</a>
-		</div> -->
-
 		<!-- UPCOMING UPDATES -->
 		<section class="mb-12">
 			<h2 class="text-2xl font-semibold mb-6 text-gray-800 dark:text-gray-200">Upcoming Updates</h2>

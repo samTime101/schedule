@@ -6,11 +6,9 @@
 </script>
 
 <div class="flex flex-col min-h-screen bg-white dark:bg-gray-900 transition-colors duration-200">
-  <Navbar />
-  
-  <div class="flex-grow pt-20">
-    <Schedule {groups} defaultGroup="L5CG4" />
-  </div>
-
-  <Footer />
+	<Navbar />
+	<div class="flex-grow">
+		<Schedule {groups} defaultGroup="L5CG4" />
+	</div>
+	<Footer />
 </div>
