@@ -1,1 +1,8 @@
 @import 'tailwindcss';
+
+@custom-variant dark (&:is(.dark, .dark *));
+
+@theme {
+	/* Custom color for alternating table rows in dark mode */
+	--color-gray-750: #2d3748;
+}
