@@ -1,9 +1,13 @@
 <script lang="ts">
 	let { changelog, upcoming } = $props();
+	import Navbar from "./Navbar.svelte";
 </script>
 
 <div class="w-full flex justify-center p-6">
 	<div class="w-full max-w-4xl">
+		<div class="flex justify-center mb-10">
+			<Navbar />
+		</div>
 		<!-- <h1 class="text-4xl font-semibold mb-10 tracking-tight text-gray-900 dark:text-gray-100 text-center">
             Changelog
         </h1> -->

@@ -1,10 +1,10 @@
 <script>
 	let { children } = $props();
 	import '../app.css';
-	import ThemeSwitcher from './components/ThemeSwitcher.svelte';
-	import ChangelogRedirect from './components/ChangelogRedirect.svelte';
+	// import ThemeSwitcher from './components/ThemeSwitcher.svelte';
+	// import ChangelogRedirect from './components/ChangelogRedirect.svelte';
 </script>
 	
-<ThemeSwitcher />
-<ChangelogRedirect />
+<!-- <ThemeSwitcher /> -->
+<!-- <ChangelogRedirect /> -->
 {@render children()}
