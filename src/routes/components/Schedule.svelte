@@ -2,8 +2,8 @@
 <script lang="ts">
 	let { groups, defaultGroup } = $props();
 	let selectedGroup = $state(defaultGroup);
-	let schedule = $derived(groups[selectedGroup].SCHEDULE);
-	const days = ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI'];
+	let schedule = $derived(groups[selectedGroup].SCHEDULE );
+	const days = ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT'];
 	let selectedDay = $state(days[new Date().getDay()]);
 </script>
 
@@ -47,13 +47,13 @@
 		<!-- CONTENT SECTION -->
 		<div class="mt-2">
 
-			{#if schedule[selectedDay].length === 0}
-				<!-- EMPTY DAY -->
-				<p class="text-gray-500 dark:text-gray-400 italic text-center py-10 text-base md:text-lg">
-					No classes today.
-				</p>
-
+			<!-- CONDITION FOR SAT -->
+			{#if selectedDay === 'SAT'}
+				<div class="bg-yellow-100 dark:bg-yellow-800 rounded-2xl p-4 border border-yellow-300 dark:border-yellow-700 text-yellow-800 dark:text-yellow-200 text-center shadow-sm">
+					No classes scheduled for Saturday! Enjoy your weekend! 
+				</div>
 			{:else}
+
 
 				<!-- MOBILE: stacked card layout -->
 				<div class="flex flex-col gap-4 md:hidden">
@@ -96,9 +96,7 @@
 						</tbody>
 					</table>
 				</div>
-
 			{/if}
-
 		</div>
 	</div>
 </div>

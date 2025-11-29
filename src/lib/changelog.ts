@@ -1,4 +1,10 @@
 let changelog = {
+	'1.0.2': {
+		date: '2025-11-25',
+		changes: [
+			'Added message for saturdays indicating no classes are scheduled.',
+		]
+	},
 	'1.0.1': {
 		date: '2025-11-26',
 		changes: [
