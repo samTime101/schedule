@@ -68,6 +68,7 @@
 							<div class="text-gray-700 dark:text-gray-300 text-sm md:text-base space-y-1">
 								<p><span class="font-medium">Instructor:</span> {session.TEACHER}</p>
 								<p><span class="font-medium">Location:</span> {session.VENUE}</p>
+								<p><span class="font-medium">Type:</span> {session.TYPE}</p>
 							</div>
 						</div>
 					{/each}
@@ -82,6 +83,7 @@
 								<th class="p-4 text-left font-semibold">Subject</th>
 								<th class="p-4 text-left font-semibold">Instructor</th>
 								<th class="p-4 text-left font-semibold">Location</th>
+								<th class="p-4 text-left font-semibold">Type</th>
 							</tr>
 						</thead>
 						<tbody class="divide-y divide-gray-100 dark:divide-gray-700">
@@ -91,6 +93,7 @@
 									<td class="p-4 font-medium text-gray-900 dark:text-gray-100">{session.MODULE}</td>
 									<td class="p-4 text-gray-700 dark:text-gray-300">{session.TEACHER}</td>
 									<td class="p-4 text-gray-700 dark:text-gray-300">{session.VENUE}</td>
+									<td class="p-4 text-gray-700 dark:text-gray-300">{session.TYPE}</td>
 								</tr>
 							{/each}
 						</tbody>

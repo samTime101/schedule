@@ -1,4 +1,10 @@
 let changelog = {
+	'1.0.3':{
+		date: '2025-12-08',
+		changes: [
+			'Updated frontend to include session type (Lecture/Tutorial/Workshop) in the schedule display.',
+		]
+	},
 	'1.0.2': {
 		date: '2025-11-25',
 		changes: [
